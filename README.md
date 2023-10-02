@@ -29,13 +29,14 @@ This API is provided as a Docker container
 3. Start the ontainer, it will automatically start the API:
 
    ```bash
-   docker run -p 8080:8080 github-gists-api
+   docker run --name alex-github-gists-api -p 8080:8080 github-gists-api
    ```
 
 4. When finished, press Ctrl+C to exit
 
 5. (Recommended) Clean up the docker container and image.
     ```bash
+    docker rm alex-github-gists-api
     docker image rm github-gists-api
     ```
 ### Using the API
