@@ -6,15 +6,15 @@ The GitHub Gists API is a simple HTTP API built with Python and Flask that inter
 
 To get started, follow these instructions to set up and run the API on your local machine.
 
-### Prerequisites
-## API
+## Prerequisites
+### API
 - docker
 
-## Testing framework
+### Testing framework
 - Python 3.x
 - requests
 
-### Installation
+## Installation
 
 This API is provided as a Docker container
 
@@ -39,7 +39,7 @@ This API is provided as a Docker container
     docker rm alex-github-gists-api
     docker image rm github-gists-api
     ```
-### Using the API
+## Using the API
 
    The API will be accessible at `http://localhost:8080`.
 
@@ -113,6 +113,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- GitHub API
-- Flask
-- requests
+Cheers to [Equal Experts](https://www.equalexperts.com/) for requesting this fun project.
